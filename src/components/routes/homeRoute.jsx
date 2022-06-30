@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="home-route">
       <Hero />
-      <Image />
+      {/* <Image /> */}
       {/* <div id="join" className="pb-5">
         <h6 className="text-center pt-2 pb-3">Join our trusted Brands</h6>
         <section className="trusted-brands container">
@@ -25,13 +25,13 @@ function Home() {
           })}
         </section>
       </div> */}
-      <Brands />
-      <Features />
-      <Chateau />
-      <Benefits />
-      <Question />
-      <Printivo />
-      <Newsletter />
+      {/* <Brands /> */}
+      {/* <Features /> */}
+      {/* <Chateau /> */}
+      {/* <Benefits /> */}
+      {/* <Question /> */}
+      {/* <Printivo /> */}
+      {/* <Newsletter /> */}
       <Footer />
     </div>
   );

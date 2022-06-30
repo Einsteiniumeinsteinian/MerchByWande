@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function hero() {
   return (
     <Container fluid className="container-hero">
-      <Row className="hero-all col-md-11 ">
+      <Row   className="hero-all col-md-11 ">
         <Col className="get-started col-md-6">
           <div className="left">
             <div className="one-paragraph">
