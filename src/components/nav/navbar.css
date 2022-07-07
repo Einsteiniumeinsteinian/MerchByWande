@@ -32,7 +32,7 @@ color: #dba90f!important;
 text-decoration: none;
 }
 
-#register {
+.register {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,9 +40,9 @@ text-decoration: none;
   padding: 10px 18px;
   gap: 8px;
   background-color: #566bd9 !important;
-  color: #fff;
+  color: #fff !important;
   border-radius: 8px;
-  width: 206px;
+  width: 200px !important;
   height: 44px;
 }
 

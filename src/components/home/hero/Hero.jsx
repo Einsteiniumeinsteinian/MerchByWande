@@ -51,11 +51,10 @@ function hero() {
                 />
               </Col>
               <Col className="top-second">
-                <img src="./Assets/images/sleeve.jpg" 
-                alt="branded sleeve"
-                 />
+                <img src="./Assets/images/sleeve.jpg" alt="branded sleeve" />
               </Col>
             </Row>
+
             <Row className="bottom-img w-100">
               <Col className="bottom-first">
                 <img src="./Assets/images/capblue.jpg" alt="cap1" />

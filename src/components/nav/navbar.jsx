@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { PopupButton } from "@typeform/embed-react";
 import "./navbar.css";
 
 function Navs({ ButtonSetter, Buttons }) {
@@ -38,7 +39,7 @@ function Navs({ ButtonSetter, Buttons }) {
             </Nav.Link>
           </Nav>
 
-          <Nav className="ms-auto my-2 my-lg-0">
+          <Nav className="ms-auto pt-2 flex align-center justify-center">
             <Nav.Link className="me-3">
               <Link
                 className={
@@ -50,17 +51,15 @@ function Navs({ ButtonSetter, Buttons }) {
                 Shop now
               </Link>
             </Nav.Link>
-            <Link
-              className={
-                Buttons === "register" ? "link-register nav-link" : "nav-link"
-              }
-              onClick={() => ButtonSetter("register")}
-              to="/register"
+
+            <PopupButton
+              className="sign-up register my-button"
+              id="JDgvFkEa"
+              style={{ fontSize: 20 }}
+              type="submit"
             >
-              <Button id="register" variant="outline-success">
-                Register my company
-              </Button>
-            </Link>
+              Get started
+            </PopupButton>
           </Nav>
         </Navbar.Collapse>
       </Container>

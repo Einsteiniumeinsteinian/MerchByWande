@@ -3,7 +3,10 @@
   margin-top: 4rem;
   margin-bottom: 6rem;
   flex-direction: row-reverse;
-  }
+}
+.hide {
+  display: none;
+}
 .brand-cont {
   padding-left: 2.5rem;
 }
@@ -44,15 +47,17 @@
     padding: 0;
   }
 
-   .brand-cont {
+  .brand-cont {
     padding-left: 7px;
     width: fit-content;
   }
+
   .brands-top {
     padding-right: 2rem;
     padding-bottom: 1.25rem;
     width: fit-content;
   }
+
   .brands-top h6 {
     margin-top: 0rem;
     font-size: 1rem;
@@ -60,6 +65,7 @@
     line-height: 1.5rem;
     padding-right: 1.875rem;
   }
+
   .brands-top h3 {
     width: fit-content;
     font-size: 1.3rem;
@@ -84,5 +90,37 @@
     height: 14.3125rem;
     min-width: 324px;
     border-radius: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hide {
+    display: block;
+  }
+  .hide > img {
+    width: 100%;
+  }
+  .brand-cont {
+    width: fit-content;
+  }
+
+  .brand-img {
+    display: none;
+  }
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-right: 1.875rem;
+  }
+  .brands-top h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: fit-content;
+    font-size: 2.55rem;
+    font-weight: 600;
+  }
+  .brands-bottom p {
+    font-size: 1rem;
+    width: 100%;
   }
 }

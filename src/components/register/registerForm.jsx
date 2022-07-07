@@ -152,7 +152,7 @@ function Register() {
             <br />
             <button className="create" type="submit">
               Create my account
-            </button>{" "}
+            </button>
             <br />
            
             <PopupButton
