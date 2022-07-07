@@ -16,9 +16,8 @@ function Home() {
   return (
     <div className="home-route">
       <Hero />
-      {/* <Image /> */}
-      
-      {/* <Brands /> */}
+      <Image />
+            {/* <Brands /> */}
        {/* <Features /> */}
       {/*<Chateau />
       <Benefits />
