@@ -133,8 +133,17 @@
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .feature-cont {
     display: block;
   }
+  .imgCont{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature-cont {
+    display: block;
+  }
+
 }

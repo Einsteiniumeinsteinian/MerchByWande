@@ -92,6 +92,13 @@
     border-radius: 0.5rem;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  .brand-cont {
+    padding: 2rem 0;
+  }
+ 
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .hide {
     display: block;

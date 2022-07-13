@@ -18,6 +18,7 @@ function Brands() {
                   customised merchandise webstore
                 </h3>
               </div>
+              
               <div className="hide">
                 <img src="./Assets/images/brand.jpg" alt="why merchs.xyz" />
               </div>

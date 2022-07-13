@@ -24,7 +24,7 @@ function Home() {
       <Question />
       <Printivo />
       <Newsletter />
-     {/*  <Footer /> */}
+      <Footer />
     </div>
   );
 }
