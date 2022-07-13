@@ -17,14 +17,6 @@ function Home() {
     <div className="home-route">
       <Hero />
       <Image />
-      {/* <div id="join" className="pb-5">
-        <h6 className="text-center pt-2 pb-3">Join our trusted Brands</h6>
-        <section className="trusted-brands container">
-          {data.map((item) => {
-            return <Image key={item.id} item={item} />;
-          })}
-        </section>
-      </div> */}
       <Brands />
       <Features />
       <Chateau />

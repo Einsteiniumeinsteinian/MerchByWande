@@ -1,5 +1,3 @@
-/* @import "https://unpkg.com/open-props"; */
-/* @import "https://unpkg.com/open-props/normalize.min.css"; */
 
 #trusted-brands {
   background: #f9fafb;
@@ -13,7 +11,6 @@
   font-size: 1 rem;
   line-height: 1.5rem;
   font-weight: 400;
-  /* padding: 0 7.3125rem; */
 }
 
 /* image sliders */
@@ -78,7 +75,7 @@
 }
 
 /* // Small devices (landscape phones, less than 557px) */
-@media (max-width: 556.98px) {
+@media (min-width: 320px) and (max-width: 558px) {
   .media-scroller {
     width: fit-content;
     --_spacer: var(--size-3);
@@ -95,3 +92,4 @@
     padding: 0;
   }  
 }
+

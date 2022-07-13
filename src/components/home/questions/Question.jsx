@@ -4,7 +4,7 @@ import {
   Card,
   Container,
   useAccordionButton,
-  Row
+  Row,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./question.css";
@@ -29,13 +29,38 @@ const Question = () => {
     {
       question: "How do i get my Merchs?",
       answer:
-        "We protect your merchz with the retun policies and we use ourn own personal delivery people so you dony need to worry about losing your items. Trust us, you are well protected."
+        "We protect your merchz with the retun policies and we use our own personal delivery people so you don't need to worry about losing your items. Trust us, you are well protected.",
     },
-    { question: "This is a question placeholder?", answer: "" },
-    { question: "This is a question placeholder?", answer: "" },
-    { question: "This is a question placeholder?", answer: "" },
-    { question: "This is a question placeholder?", answer: "" },
-    { question: "This is a question placeholder?", answer: "" }
+    {
+      question: "What happens if I receive a damaged item?",
+      answer:
+        "In the event that your order is damaged, we will replace it at no additional cost, provided we have the inventory. A full refund will be issued if we cannot replace the item. ",
+    },
+    {
+      question: "I accidentally ordered the wrong size; how can I fix this?  ",
+      answer:
+        "We can certainly help you get your order right, as long as it has not been shipped yet. Please email us at support@merchs.com and include the name and email on the order, the new size you’d like and your order number.  ",
+    },
+    {
+      question: "What are your delivery costs?  ",
+      answer:
+        "We offer free shipping within Nigeria and across the world. We have over a thousand shipping partners worldwide, making shipping as easy as possible.  ",
+    },
+    {
+      question: "How long does shipping take for Nigerian orders?",
+      answer:
+        "It typically takes 3 - 7 days for an item to be delivered to the customer after it has been shipped from one of our warehouses. ",
+    },
+    {
+      question: "Do you ship internationally?  ",
+      answer:
+        "Yes, we offer global shipping. Upon leaving Nigeria, packages will be shipped to a regional hub before being delivered to the country of destination. A package's final delivery is handled by its local postal service once it reaches its destination country. Orders shipped internationally can take up to three to eight weeks to arrive. ",
+    },
+    {
+      question: "Do I have to pay international customs and VAT?   ",
+      answer:
+        "Customs may charge an additional fee or VAT for international shipping. We cannot calculate the cost in advance due to the difference in fees between countries. These fees are not paid by Merch. ",
+    },
   ];
   return (
     <Container fluid className="App">
@@ -43,14 +68,11 @@ const Question = () => {
         <Row className="frequent">
           <div>
             <h3>Frequently asked questions</h3>
-            <p>Everything you need to know about Aimcare.africa</p>
+            <p>Everything you need to know about Merch.xyz</p>
           </div>
         </Row>
-        <Row>
-          <Accordion
-            defaultActiveKey={0}
-            activeKey={activeKey}
-          >
+        <Row className="accordion-row">
+          <Accordion defaultActiveKey={0} activeKey={activeKey}>
             {data.map((item, index) => (
               <Card key={index}>
                 <CustomToggle
@@ -66,7 +88,9 @@ const Question = () => {
                 >
                   <span className="texts">
                     <div>{item.question}</div>
-                    <div className="signs">{activeKey === index ? "-" : "+"}</div>
+                    <div className="signs">
+                      {activeKey === index ? "-" : "+"}
+                    </div>
                   </span>
                 </CustomToggle>
                 <Accordion.Collapse eventKey={index}>
