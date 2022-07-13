@@ -9,7 +9,6 @@
   color: #667085;
 }
 .benefit-cont {
-  /* width: 26rem; */
   margin-bottom: 1.5rem;
 }
 
@@ -25,12 +24,14 @@
   color: #667085;
 }
 
-@media (max-width: 556.98px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .benefit-cont {
-    width:   338px;
+    width: 300px;
+    margin: 2rem auto;
   }
-  .benefit-cont p {
-          width:   338px;
 
+  .benefit-cont p {
+    width: 300px;
+    margin: 0 auto;
   }
 }

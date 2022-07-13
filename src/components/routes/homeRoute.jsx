@@ -17,14 +17,14 @@ function Home() {
     <div className="home-route">
       <Hero />
       <Image />
-            {/* <Brands /> */}
-       {/* <Features /> */}
-      {/*<Chateau />
+      <Brands />
+      <Features />
+      <Chateau />
       <Benefits />
       <Question />
       <Printivo />
       <Newsletter />
-      <Footer /> */}
+     {/*  <Footer /> */}
     </div>
   );
 }
