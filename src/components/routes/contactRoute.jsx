@@ -8,8 +8,8 @@ function contactRoute() {
   return (
     <div>
       <ContactForm />
-      <Feedback />
-      <Footer />
+      {/* <Feedback /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

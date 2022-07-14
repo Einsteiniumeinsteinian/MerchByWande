@@ -93,10 +93,57 @@
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  .brand-cont {
+  /* .brand-cont {
     padding: 2rem 0;
+  } */
+  .hide {
+    display: block;
   }
- 
+  .hide > img {
+    width: 100%;
+  }
+  .merch-brands {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .brand-cont {
+    padding-left: 7px;
+    width: fit-content;
+  }
+
+  .brands-top {
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    width: fit-content;
+  }
+
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 1rem;
+    width: fit-content;
+    line-height: 1.5rem;
+    padding-right: 1.875rem;
+  }
+
+  .brands-top h3 {
+    width: fit-content;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+  }
+  .brands-bottom p {
+    width: fit-content;
+    color: #667085;
+    padding-bottom: 2.5rem;
+  }
+
+  .brand-img {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

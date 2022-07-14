@@ -18,7 +18,7 @@ function Benefits() {
         </Row>
 
         <Row className="pb-5 text-center">
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/order.png"
               name="place an order"
@@ -27,7 +27,7 @@ function Benefits() {
               // features={[]}
             />
           </Col>
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/demand.png"
               name="Demand ordering"
@@ -36,7 +36,7 @@ function Benefits() {
               // features={[]}
             />
           </Col>
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/monetize.png"
               name="monitize brand"
@@ -45,7 +45,7 @@ function Benefits() {
               // features={[]}
             />
           </Col>
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/payment.png"
               name="Payment"
@@ -54,7 +54,7 @@ function Benefits() {
               // features={[]}
             />
           </Col>
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/support.png"
               name="place an order"
@@ -63,7 +63,7 @@ function Benefits() {
               // features={[]}
             />
           </Col>
-          <Col className="col-lg-4 col-sm-6">
+          <Col className="col-12 col-md-6 col-lg-4">
             <Detail
               Img="./Assets/icons/smartphone.png"
               name="multiple payment"
