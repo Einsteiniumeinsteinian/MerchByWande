@@ -65,7 +65,7 @@ function ContactForm() {
             ) : null}
             <div className="names d-flex text-start">
               {/* first name */}
-              <div id="firstname" className="me-4 pe-4">
+              <div id="firstname" className="m-3">
                 <label htmlFor="firstName">
                   First name<span style={{ color: "red" }}>*</span> <br />
                 </label>
@@ -87,7 +87,7 @@ function ContactForm() {
                 <br />
               </div>
 
-              <div id="lastname">
+              <div id="lastname" className="m-3">
                 {/* last name */}
                 <label htmlFor="lastName">
                   Last name<span style={{ color: "red" }}>*</span>
@@ -111,7 +111,7 @@ function ContactForm() {
               </div>
             </div>
             {/* email */}
-            <div id="email">
+            <div id="email" className="m-3">
               <label htmlFor="email">
                 Email<span style={{ color: "red" }}>*</span>
               </label>
@@ -139,7 +139,7 @@ function ContactForm() {
                 value={value}
                 onChange={setValue}
                 name="phoneNumber"
-                className="form-field phone ps-2"
+                className="form-field phone m-3"
               />
               <br />
               {submitted && !values.phoneNumber ? (
@@ -150,7 +150,7 @@ function ContactForm() {
             </div>
 
             <br />
-            <div id="message">
+            <div id="message" className="m-3">
               {/* message */}
               <label htmlFor="message">Message</label> <br />
               <input
@@ -169,11 +169,11 @@ function ContactForm() {
             <br />
             <span className="checked d-flex">
               <input type="checkbox" name="privacy" required />
-              <p>You agree to our friendly &nbsp;</p>
-              <Link to="#">privacy policy.</Link>
+              <p className="d-flex">You agree to our friendly &nbsp;
+              <Link to="#">privacy policy.</Link></p>
             </span>
             <br />
-            <button className="create" type="submit">
+            <button className="create m-3" type="submit">
               Send message
             </button>
           </form>
