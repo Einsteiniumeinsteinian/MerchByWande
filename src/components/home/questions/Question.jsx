@@ -27,9 +27,9 @@ const Question = () => {
 
   const data = [
     {
-      question: "How do i get my Merchs?",
+      question: "How do i get my Merchz?",
       answer:
-        "We protect your merchz with the retun policies and we use our own personal delivery people so you don't need to worry about losing your items. Trust us, you are well protected.",
+        "We protect your merchz with the return policies and we use our own personal delivery people so you don't need to worry about losing your items. Trust us, you are well protected.",
     },
     {
       question: "What happens if I receive a damaged item?",
