@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../home/hero/Hero";
 import "./homeRoute.css";
-// import data from "./data";
 import Image from "../home/image/image";
 import Brands from "../home/brands/Brands";
 import Features from "../home/features/Features";

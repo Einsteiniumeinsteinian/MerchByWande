@@ -25,9 +25,9 @@ function Footer() {
           <Link className="overview" to="/">
             Help
           </Link>
-          <Link className="overview" to="/">
+          <a className="overview" href='https://drive.google.com/file/d/1vRAruXR-AvBYbInisQJnEwAEPUzvzT7h/view?usp=sharing' target='_blank'>
             Policy
-          </Link>
+          </a>
         </div>
       </Row>
 
@@ -37,9 +37,9 @@ function Footer() {
           &copy; 2022 Merch.xyz. All rights reserved.
           </small>
           <div className="link-term">
-            <Link className="terms" to="/">Terms</Link>
+            <a className="terms" href='https://drive.google.com/file/d/1vRAruXR-AvBYbInisQJnEwAEPUzvzT7h/view?usp=sharing' target='_blank'>Terms</a>
             <Link className="terms" to="/">Privacy</Link>
-            <Link className="terms" to="/">Cokies</Link>
+            <Link className="terms" to="/">Cookies</Link>
           </div>
         </div>
       </Row>

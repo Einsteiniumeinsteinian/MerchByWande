@@ -35,3 +35,29 @@ const data = [
 ]
 
 export default data;
+
+
+/**
+ * [
+ *  {
+ *    header: '',
+ *    content: '',
+ *    list: {
+ *      item1: '',
+ *      item2: '',
+ *    }
+ *  }
+ * ]
+ * 
+ * content.map(data => (
+ *  <div>
+ *    <h3>{data.header}</h3>
+ *    <p>{data.content}</p>
+ *    {data.list && <ol>
+ *      data.list.map(listItem => (
+ *        <li>{listItem}</li>
+ *      ))
+ *    </ol>}
+ *  </div>
+ * ))
+ */

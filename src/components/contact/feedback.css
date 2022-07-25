@@ -35,7 +35,7 @@
 }
 .feedback h3 {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 400;   
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   color: #303d7d;
@@ -57,11 +57,11 @@
   font-size: 0.9rem;
 }
 
-@media (max-width: 556.98px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .contact-bottom {
     width: 17.5rem;
     padding-bottom: 0rem;
-    margin-left: 2rem;
+    margin-left: 0;
     padding-top: 1rem;
   }
   .contact-bottom h6 {
@@ -83,10 +83,10 @@
     display: block;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    margin-left: 2rem;
+    margin: 0 auto;
   }
   .feedback-img img {
-    width: 17rem;
+    width: 18.5rem;
   }
   .feedbacks {
     width: 18.5rem;
@@ -96,18 +96,77 @@
   }
   .feedback {
     padding-left: 0rem;
+    margin: 0 auto;
     margin-bottom: 1.5rem;
+    width: 18rem;
   }
+
   .feedback img {
     padding-bottom: 0rem;
     margin-bottom: 3rem;
   }
   .feedback-cont {
-    width: 15rem;
+    width: max-content;
   }
   .feed-link {
     text-decoration: none;
     display: block;
   }
-  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .contact-bottom {
+    width: 17.5rem;
+    padding-bottom: 0rem;
+    margin-left: 0;
+    padding-top: 1rem;
+  } 
+  .contact-bottom h6 {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    width: 14rem;
+  }
+  .contact-bottom h1 {
+    font-size: 1.575rem;
+    width: 17rem;
+    margin-top: 1rem;
+  }
+  .contact-bottom p {
+    padding-bottom: 1rem;
+    width: 18rem;
+  }
+  .feedback-img {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+  }
+  .feedback-img img {
+    width: 18.5rem;
+  }
+  .feedbacks {
+    width: 18.5rem;
+    padding-left: -1rem !important;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  .feedback {
+    padding-left: 0rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: 18rem;
+  }
+
+  .feedback img {
+    padding-bottom: 0rem;
+    margin-bottom: 3rem;
+  }
+  .feedback-cont {
+    width: max-content;
+  }
+  .feed-link {
+    text-decoration: none;
+    display: block;
+  }
 }
